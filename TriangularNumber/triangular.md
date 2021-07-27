@@ -1,3 +1,4 @@
+```
 or = λ a b . a a b
 and = λ a b . a b a
 xor = λ a b . a (not b) b
@@ -45,3 +46,4 @@ fac% = λ r n . is0 n 0 (n Succ (r (-1 n)))
 fac = λ n . Y fac% n
 fac 3 --6
 fac 5 --15
+```
